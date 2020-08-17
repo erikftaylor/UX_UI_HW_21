@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+    background-color: #f2f2f2;
+}
+header {
+  background-color: black;
+  padding: 15px;
+  padding: 10px 16px;
+  color: #f2f2f2
+}
+header ul {
+  float: right;
+  color: #f2f2f2 !important;
+}
+header li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+header a:-webkit-any-link {
+    color: #f2f2f2;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+header p {
+  display: inline-block;
+}
+.heroImg {
+  background-color: #212126;
+  padding: 5%;
+}
+.content {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: white;
+  text-align: center;
+}
+button {
+  padding: 15px;
+  background-color: #044D8C;
+  color: #f2f2f2;
+  font-size: 15px;
+  border-radius: 4px;
+  border-color: #f2f2f2
+}
+
+/* WORK CARDS */
+* {
+  box-sizing: border-box;
+}
+
+.work {
+    background-color: #f2f2f2;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+div h1 {
+    text-align: center;
+}
+div h3 {
+    text-align: center;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.work .column {
+  float: left;
+  width: 100%;
+   padding-right: 1%;
+   padding-left: 1%;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+    margin: 0 -5px;
+    padding-bottom: 2%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding-bottom: 0%
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: left;
+  background-color: white;
+  height: 250px;
+}
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+/* END WORK CARDS */
+
+/* SKILL CARDS */
+* {
+  box-sizing: border-box;
+}
+
+div.row {
+    padding: 3%
+}
+
+.skills {
+    background-color: #212126;
+    padding: 1%;
+}
+
+.skills h1 {
+    color: #f2f2f2;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 20px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+    margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: left;
+  background-color: white;
+  height: 250px;
+}
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+div.connect {
+    padding: 5%;
+}
+/* END SKILL CARDS */
+footer {
+  background-color: black;
+  padding: 5px;
+  color: white;
+}
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+}
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
+}
+
+footer a:-webkit-any-link {
+    color: #f2f2f2;
+    cursor: pointer;
+    text-decoration: none;
+}
